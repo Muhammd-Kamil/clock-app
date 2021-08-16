@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(room.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+#box
+{
+    height:300px;
+    width: 300px;
+   // border: 2px solid black;
+    background-image: url(clock.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 800px;
+}
+#hour
+{
+    height: 60px;
+    width: 1px;
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    top:90px;
+    left:148px;
+    transform-origin: bottom;
+
+}
+#minute
+{
+    height: 80px;
+    width: 1px;
+    border: 1px solid black;
+    background-color: blue;
+    position: absolute;
+    top:70px;
+    left:147px;
+    transform-origin: bottom;
+}
+#second
+{
+    height: 100px;
+    width: 1px;
+    border: 1px solid black;
+    background-color:red;
+    position: absolute;
+    top:48px;
+    left:147px;  
+    transform-origin: bottom;
+}
